@@ -8,6 +8,14 @@
         "github.copilot.enable": { "*": false },           // Sin autocompletado de IA
         "editor.inlineSuggest.enabled": false,              // Sin sugerencias inline
         "github.copilot.chat.enabled": true,                // Chat para preguntar dudas: SÍ
+        "github.copilot.chat.agent.enabled": false,         // Sin modo agente (no ejecuta acciones)
+        "inlineChat.mode": "preview",                       // Inline chat solo muestra preview, no aplica
+        "editor.inlineChat.enabled": false,                 // Sin Ctrl+I (inline chat en el editor)
+        "github.copilot.chat.edits.enabled": false,         // Sin modo "Edits" (edición directa de ficheros)
+        "github.copilot.chat.codeGeneration.instructions": [], // Sin instrucciones de generación
+        "github.copilot.chat.fixTestFailure.enabled": false,  // Sin auto-fix de tests
+        "github.copilot.chat.generateTests.codeLens": false,  // Sin CodeLens para generar tests
+        "github.copilot.chat.useProjectInstructions": true,   // Usa .github/copilot-instructions.md
 
         // ── AUTOCOMPLETADO DEL EDITOR ───────────────────
         "editor.quickSuggestions": {
